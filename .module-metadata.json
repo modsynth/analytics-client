@@ -1,0 +1,1 @@
+{"name": "analytics-client", "version": "0.1.0", "description": "Frontend analytics client", "type": "library", "language": "typescript", "category": "frontend", "maintainers": [{"name": "Modsynth Team"}], "techStack": ["TypeScript", "Google Analytics"]}

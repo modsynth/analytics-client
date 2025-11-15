@@ -8,7 +8,7 @@ export class AnalyticsClient {
 
   private initialize() {
     if (typeof window === 'undefined') return;
-    
+
     const script = document.createElement('script');
     script.async = true;
     script.src = `https://www.googletagmanager.com/gtag/js?id=${this.trackingId}`;
@@ -37,4 +37,5 @@ export class AnalyticsClient {
   }
 }
 
+export { useAnalytics } from './hooks';
 export default AnalyticsClient;

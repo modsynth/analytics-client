@@ -1,15 +1,20 @@
 {
   "name": "@modsynth/analytics-client",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Frontend analytics client (Google Analytics)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Modsynth Team",
   "license": "MIT",
   "devDependencies": {
+    "@types/react": "^19.2.3",
+    "react": "^19.2.0",
     "typescript": "^5.0.0"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "build": "tsc"
   }
 }
